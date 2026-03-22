@@ -1,0 +1,122 @@
+
+Action: file_editor create /app/LICENSE --file-text "MIT License
+
+Copyright (c) 2026 Shivkalpana Travel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the \"Software\"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"
+Observation: Create successful: /app/LICENSE
+
+Fetching debug logs for expo
+
+==> /var/log/supervisor/expo.err.log <==
+Check the Ngrok status page for outages: https://status.ngrok.com/
+error Command failed with exit code 1.
+CommandError: failed to start tunnel
+
+remote gone away
+
+Check the Ngrok status page for outages: https://status.ngrok.com/
+error Command failed with exit code 1.
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+"shadow*" style props are deprecated. Use "boxShadow".
+
+==> /var/log/supervisor/expo.out.log <==
+Web Bundled 880ms node_modules/expo-router/entry.js (1 module)
+λ Bundled 23ms node_modules/expo-router/node/render.js (1 module)
+Web Bundled 332ms node_modules/expo-router/entry.js (1 module)
+λ Bundled 21ms node_modules/expo-router/node/render.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+Web Bundled 749ms node_modules/expo-router/entry.js (1 module)
+λ Bundled 23ms node_modules/expo-router/node/render.js (1 module)
+Web Bundled 296ms node_modules/expo-router/entry.js (1 module)
+Web Bundled 28ms node_modules/expo-router/entry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ Bundled 32ms node_modules/expo-router/node/render.js (1 module)
+Web Bundled 877ms node_modules/expo-router/entry.js (1 module)
+Web Bundled 26ms node_modules/expo-router/entry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+λ Bundled 24ms node_modules/expo-router/node/render.js (1 module)
+Web Bundled 817ms node_modules/expo-router/entry.js (1 module)
+Web Bundled 26ms node_modules/expo-router/entry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+
+
+Fetching debug logs for backend
+
+==> /var/log/supervisor/backend.err.log <==
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [878]
+INFO:     Stopping reloader process [149]
+INFO:     Will watch for changes in these directories: ['/app/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [1880] using WatchFiles
+INFO:     Started server process [1882]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2026-03-22 13:07:31,811 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/root/.venv/lib/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+
+==> /var/log/supervisor/backend.out.log <==
+INFO:     10.169.2.194:56424 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.169.9.5:48382 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.169.2.194:56424 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     10.169.2.194:54316 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     10.169.2.194:54316 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     10.169.2.194:45832 - "GET /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:50264 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     10.169.2.194:50264 - "GET /api/packages/69bfaf15723f9cc72174403a HTTP/1.1" 200 OK
+INFO:     10.169.2.194:50264 - "GET /api/packages/69bfaf15723f9cc72174403a HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.2.194:33364 - "POST /api/bookings HTTP/1.1" 200 OK
+INFO:     10.169.9.5:47048 - "GET /api/packages HTTP/1.1" 200 OK
+INFO:     10.169.2.194:37782 - "GET /api/packages HTTP/1.1" 200 OK
+
+
+Fetching debug logs for mongodb
+
+tail: cannot open '/var/log/supervisor/mongodb*.log' for reading: No such file or directory
